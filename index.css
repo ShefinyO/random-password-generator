@@ -1,0 +1,98 @@
+:root{
+  --darkgrey: #1F2937;
+  --green: #10B981;
+  --white: white;
+  --grey: #808082;
+  --lightgrey: #273549;
+
+}
+
+body{
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: min(400px, 90%);
+
+
+}
+
+p{
+  color: #D5D4D8;
+  margin: 0.4rem 0 0 0;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  background-color: var(--darkgrey);
+}
+
+h1{
+  color: var(--white);
+  margin: 0;
+
+}
+
+.rand-title{
+  color: var(--green);
+}
+
+.underline{
+  border: solid 1px #35404f;
+  margin: 0.8rem 0;
+
+}
+
+.pass-cnt{
+  display: flex;
+  gap:1.2rem;
+  align-items: center;
+
+}
+
+.pass{
+  flex:1;
+  background-color: var(--lightgrey);
+  padding: 0.4rem 0;
+  border-radius: 5px;
+  color: var(--green);
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.pass:hover{
+  cursor: pointer;
+}
+
+.pass:active{
+  opacity: 0.6;
+}
+
+button{
+  padding: 0.5rem 0.8rem;
+  background-color: var(--green);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-cnt{
+  margin-top: 1.7rem;
+}
+
+button:hover{
+  background-color: var(--white);
+  color: var(--green);
+  cursor: pointer;;
+}
